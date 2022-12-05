@@ -106,14 +106,14 @@ elif lifestage == 'Growing':
 
 with info:
     if species=='Dog':
-        img = Image.open("D:\\Streamlit\\streamlit\\Scripts\\dog_image.png")
+        img = Image.open("./dog_image.png")
         st.image(img,
                 width=280)
 #         fig = px.imshow(img,
 #                        width=[10, 50])
 #         st.plotly_chart(fig)
     elif species=='Cat':
-        img = Image.open("D:\\Streamlit\\streamlit\\Scripts\\cat_image.png")
+        img = Image.open("./cat_image.png")
         st.image(img,
                 width=280)
 #         fig = px.imshow(img,
