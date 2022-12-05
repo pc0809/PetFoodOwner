@@ -38,7 +38,8 @@ with main:
         if lifestage == 'Adult':
             condition = st.radio("Select condition", ('Intact', 'Neutered', 'Obese Prone'), horizontal = True)
             activity = st.radio("Select activity level",('Low', 'Normal', 'High'), horizontal = True)
-                
+        elif lifestage=='Growing':
+            activity = st.radio("Select activity level",('Low', 'Normal', 'High'), horizontal = True)                
     
     if species=='Dog':
 #         gender = st.radio(
